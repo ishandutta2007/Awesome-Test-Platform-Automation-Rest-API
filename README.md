@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Test Platform Automation REST API Banner" width="100%">
+</p>
+
 # Awesome Test Platform Automation REST API
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
