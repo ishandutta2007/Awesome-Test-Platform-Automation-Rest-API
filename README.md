@@ -83,7 +83,7 @@ Self-hosted, community-driven frameworks and server platforms that provide REST 
 
 ### Open-Source Platforms Overview
 
-The table below lists open-source test automation and platform solutions sorted descending by GitHub Stars_Count:
+The table below lists open-source test automation and platform solutions sorted descending by GitHub_Stars_Count:
 
 | Project | GitHub_Stars | Stack | License | Description & API Interface |
 |:---|:---|:---|:---|:---|
@@ -172,7 +172,7 @@ Contributions are welcome! If you know of an open-source test platform automatio
 
 1. Fork this repository.
 2. Create a new branch: `git checkout -b feature/new-tool`.
-3. Add the tool under the appropriate section with its name, GitHub Stars_Badge, description, and link.
+3. Add the tool under the appropriate section with its name, GitHub_Stars_Badge, description, and link.
 4. Commit your changes: `git commit -m "Add <Tool-Name>"`.
 5. Push to your branch and open a Pull Request.
 
