@@ -83,9 +83,9 @@ Self-hosted, community-driven frameworks and server platforms that provide REST 
 
 ### Open-Source Platforms Overview
 
-The table below lists open-source test automation and platform solutions sorted descending by GitHub star count:
+The table below lists open-source test automation and platform solutions sorted descending by GitHub Stars_Count:
 
-| Project | Stars | Stack | License | Description & API Interface |
+| Project | GitHub_Stars | Stack | License | Description & API Interface |
 |:---|:---|:---|:---|:---|
 | **[Playwright](https://github.com/microsoft/playwright)** | [![Playwright Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers) | Node.js / TypeScript / Python / Java / C# | Apache 2.0 | High-performance end-to-end web testing framework with programmatic browser context server and JSON-RPC / WebSocket wire protocol. |
 | **[Cypress](https://github.com/cypress-io/cypress)** | [![Cypress Stars](https://img.shields.io/github/stars/cypress-io/cypress?style=social&color=white)](https://github.com/cypress-io/cypress/stargazers) | JavaScript / TypeScript | MIT | Fast, reliable browser testing runner with Module API (`cypress.run()`) and programmatic CI/CD execution interfaces. |
@@ -172,7 +172,7 @@ Contributions are welcome! If you know of an open-source test platform automatio
 
 1. Fork this repository.
 2. Create a new branch: `git checkout -b feature/new-tool`.
-3. Add the tool under the appropriate section with its name, GitHub star badge, description, and link.
+3. Add the tool under the appropriate section with its name, GitHub Stars_Badge, description, and link.
 4. Commit your changes: `git commit -m "Add <Tool-Name>"`.
 5. Push to your branch and open a Pull Request.
 
