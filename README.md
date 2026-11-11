@@ -102,6 +102,7 @@ The table below lists open-source test automation and platform solutions sorted 
 | **[Apache Guacamole](https://github.com/apache/guacamole-server)** | [![Guacamole Stars](https://img.shields.io/github/stars/apache/guacamole-server?style=social&color=white)](https://github.com/apache/guacamole-server/stargazers) | C / Java / JavaScript | Apache 2.0 | Clientless remote desktop gateway with documented REST API for programmatic remote machine and test environment session management. |
 | **[Selenoid](https://github.com/aerokube/selenoid)** | [![Selenoid Stars](https://img.shields.io/github/stars/aerokube/selenoid?style=social&color=white)](https://github.com/aerokube/selenoid/stargazers) | Go | Apache 2.0 | Lightning-fast implementation of Selenium hub using Docker containers to launch isolated browsers, exposing a native REST API. |
 | **[ReportPortal](https://github.com/reportportal/reportportal)** | [![ReportPortal Stars](https://img.shields.io/github/stars/reportportal/reportportal?style=social&color=white)](https://github.com/reportportal/reportportal/stargazers) | Java / React / Docker | Apache 2.0 | AI-powered centralized test automation dashboard and analytics service with complete REST API for reporting and classification. |
+| **[agent-qa](https://vostride.com)** | [![agent-qa Stars](https://img.shields.io/github/stars/vostride/agent-qa?style=social&color=white)](https://github.com/vostride/agent-qa/stargazers) | TypeScript / Node.js 24+ | FSL-1.1-ALv2 | Machine-local HTTP service to start QA runs, stream events over SSE and check health; persistent memidex memory, validated self-improvement and step/screenshot evidence. |
 | **[TestRail Python API](https://github.com/tolstislon/testrail-api)** | [![TestRail API Stars](https://img.shields.io/github/stars/tolstislon/testrail-api?style=social&color=white)](https://github.com/tolstislon/testrail-api/stargazers) | Python | MIT | Comprehensive typed Python client library for automating TestRail test cases, runs, milestones, and result submissions. |
 
 ---
@@ -148,6 +149,12 @@ The table below lists open-source test automation and platform solutions sorted 
 * **Stack:** Java / Docker | **License:** Apache 2.0
 * **Overview:** ReportPortal provides AI-based test automation reporting and analytics. It exposes a REST API for logging test executions in real time, auto-analyzing test failures with machine learning, and integrating with any test automation runner.
 
+#### agent-qa
+* **Website:** [vostride](https://vostride.com) | **Repository:** [vostride/agent-qa](https://github.com/vostride/agent-qa)
+* **Stack:** TypeScript / Node.js 24+ | **License:** FSL-1.1-ALv2
+* **Overview:** Local web, Android and iOS AI QA with persistent memidex memory, validated self-improvement and recorded step/screenshots. The dashboard exposes `POST /run` to start a run, `GET /run/<runId>/events` for SSE progress and `GET /ok` for health; requests are accepted only from the same machine.
+* **Local use:** $0 software for permitted local use; configure a model and test environment, with model and infrastructure costs separate.
+
 ---
 
 ## 📊 Comparison at a Glance
@@ -167,6 +174,7 @@ The table below lists open-source test automation and platform solutions sorted 
 | **Karate** | Self-Hosted | API testing & mock services | Java programmatic runner & mock server | Unified API testing and service mocking |
 | **Selenoid** | Self-Hosted | Containerized browser grid | REST API for sessions & video streaming | Lightweight container-based Selenium grids |
 | **ReportPortal** | Self-Hosted | Centralized test reporting & AI analysis | Comprehensive reporting REST API | Unified test analytics across heterogeneous frameworks |
+| **agent-qa** | Local CLI / dashboard | AI web/mobile QA with step evidence and persistent memidex memory | Machine-local HTTP: start runs, SSE events, health | Scripted local QA; Node.js 24+, configured model/target and separate model/infrastructure costs |
 
 ---
 
